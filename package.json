@@ -1,0 +1,24 @@
+{
+  "name": "chassis-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Control dual gearbox chassis kit via LightBlue Bean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natevw/chassis-kit"
+  },
+  "author": "Nathan Vander Wilt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natevw/chassis-kit/issues"
+  },
+  "homepage": "https://github.com/natevw/chassis-kit",
+  "dependencies": {
+    "faye-websocket": "^0.9.4",
+    "serialport": "^1.7.4"
+  }
+}
